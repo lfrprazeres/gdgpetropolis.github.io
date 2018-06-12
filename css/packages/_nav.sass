@@ -2,7 +2,7 @@
     width: 6rem
     @media (max-width: 768px)
 nav
-    box-shadow: 0 0 100px 5px rgba(0,0,0,.7)
+    box-shadow: 0 0 15px 5px rgba(0,0,0,.7)
     background-color: white
     position: fixed
     width: 100%
@@ -23,8 +23,10 @@ nav
                 display: none
             a
                 height: 100%
+                transition: .2s
                 &:hover
                     border-bottom: 3px solid $Gblue
+                    text-shadow: .2px .2px .2px 
                     transition: .1s
                     font-weight: 700
                     color: $Gblue
